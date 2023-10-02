@@ -6,10 +6,7 @@ import { data } from "./data";
 import Navigation from "./components/Navigation";
 import Products from "./components/Products";
 import ShoppingCart from "./components/ShoppingCart";
-import {
-  ProductContext,
-  ProductContextProvider,
-} from "./contexts/ProductContext";
+import { ProductContext } from "./contexts/ProductContext";
 import { CartContext } from "./contexts/CartContext";
 
 function App() {
